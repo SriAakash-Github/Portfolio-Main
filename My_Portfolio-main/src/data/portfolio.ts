@@ -3,16 +3,16 @@ import { Project, Skill, Article, SocialLink } from '../types';
 export const experiences = [
   {
     id: 'exp-1',
-    title: 'Senior Full Stack Developer',
-    company: 'TechCorp Solutions',
-    period: '2022 - Present',
-    location: 'Remote',
-    description: 'Led development of scalable web applications using React, Node.js, and cloud technologies. Mentored junior developers and architected microservices infrastructure.',
-    technologies: ['React', 'Node.js', 'AWS', 'Docker', 'TypeScript'],
+    title: 'AI/ML Full Stack Intern',
+    company: 'Mphasis',
+    period: '05/2025 - Present',
+    location: 'DLF SEZ IT Park, Chennai',
+    description: 'Worked in the airline operations domain, developing a Flight-Baggage Analytics System that used multiple ML models to address various KPIs, collaborated with business analysts, and built a full-stack ML application.',
+    technologies: ['Xgboost', 'React.js', 'AWS', 'Git', 'Streamlit','Flask','EDA','RAG'],
     achievements: [
-      'Reduced application load time by 60% through optimization',
-      'Led team of 5 developers on critical client projects',
-      'Implemented CI/CD pipeline reducing deployment time by 80%'
+      'Developed a Flight-Baggage Analytics System using ML models for delay prediction and anomaly detection aligned with key operational KPIs.',
+      'Presented solutions in business meetings, translating technical insights into actionable strategies in collaboration with analysts.',
+      'Built and integrated multiple ML models addressing airline KPIs into a unified platform.'
     ]
   },
   {
@@ -31,16 +31,16 @@ export const experiences = [
   },
   {
     id: 'exp-3',
-    title: 'Junior Developer',
-    company: 'WebDev Agency',
-    period: '2019 - 2020',
-    location: 'New York, NY',
-    description: 'Started career building websites for small businesses. Gained experience in full-stack development and client communication.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+    title: 'Freelance | Technical Content Writer & Manager',
+    company: 'Articulate – Web Dev & Content Writing Agency',
+    period: '03/2023 - 08/2023',
+    location: 'Remote',
+    description: 'combined technical writing expertise with leadership and project management. I created quality educational content and led teams of writers delivering consistent results for major platforms like GFG and TutorialsPoint.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Python'],
     achievements: [
-      'Delivered 25+ client websites on time',
-      'Maintained 98% client satisfaction rate',
-      'Learned modern development practices and tools'
+      'detailed tutorials and articles on Python, JavaScript, and web development topics.',
+      'Reviewed SEO guidelines and analytics to optimize reach and readability.',
+      'Recruited and managed a team of content writers via LinkedIn to ensure timely and high-quality content delivery.'
     ]
   }
 ];
@@ -86,9 +86,9 @@ export const skills: Skill[] = [
   { name: 'JavaScript/TypeScript', level: 95, category: 'frontend' },
   { name: 'React.js', level: 90, category: 'frontend' },
   { name: 'Tailwind CSS', level: 85, category: 'frontend' },
-  { name: 'Node.js', level: 88, category: 'backend' },
+  { name: 'Node.js + Express.js ', level: 70, category: 'backend' },
   { name: 'Python/Flask', level: 82, category: 'backend' },
-  { name: 'Java', level: 78, category: 'backend' },
+  { name: '.Net', level: 78, category: 'backend' },
   { name: 'Docker', level: 85, category: 'devops' },
   { name: 'AWS', level: 80, category: 'devops' },
   { name: 'Linux/Shell', level: 92, category: 'tools' },
@@ -98,7 +98,7 @@ export const skills: Skill[] = [
   { name: 'ML Algorithms', level: 75, category: 'aiml' },
   { name: 'Hugging Face', level: 78, category: 'aimltech' },
   { name: 'Streamlit', level: 82, category: 'aimltech' },
-  { name: 'Cursor IDE', level: 70, category: 'aimltech' }
+  { name: 'Cursor IDE', level: 90, category: 'aimltech' }
 ];
 
 export const articles: Article[] = [

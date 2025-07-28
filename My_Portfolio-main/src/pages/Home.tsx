@@ -24,8 +24,8 @@ export const Home: React.FC = () => {
   const responses = [
     "Sri Aakash-AI/ML Enthusiats & Developer | Summer Intern @ Mphasis | Pre-final Year Engineering Student",
     "Welcome to my digital workspace!\nArchitecting solutions one commit at a time.",
-    "Frontend: JavaScript, React.js, Streamlit\nBackend: Node.js, Flask, Java, .Net\nDevOps: Docker, AWS",
-    "● developer.service - Software Engineer\n   Loaded: loaded (/usr/lib/systemd/system/developer.service; enabled)\n   Active: active (running) since 2020-01-01\n   Status: \"Ready to build amazing things\""
+    "Frontend: JavaScript, React.js, Streamlit\nBackend: Node.js, Flask,.Net\nDevOps: Git, Docker, AWS",
+    "● developer.service - Software Engineer\n   Loaded: loaded (/usr/lib/systemd/system/developer.service; enabled)\n   Active: active (running) since 08-07-2003\n   Status: \"Ready to build amazing things\""
   ];
 
   // Command handler

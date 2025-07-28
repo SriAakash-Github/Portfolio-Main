@@ -253,7 +253,7 @@ export const Contact: React.FC = () => {
                 </div>
 
                 <div className="pt-3 border-t border-gray-800 text-xs text-gray-500 font-mono">
-                  Timezone: UTC-8 (PST) | Status: Online
+                  Timezone: UTC+5:30 (IST) | Status: Online
                 </div>
               </div>
             </TerminalWindow>

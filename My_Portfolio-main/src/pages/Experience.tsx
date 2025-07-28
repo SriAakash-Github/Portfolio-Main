@@ -137,7 +137,7 @@ export const Experience: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
                 className="space-y-2"
               >
-                <div className="text-2xl md:text-3xl font-bold text-cyan-400">5+</div>
+                <div className="text-2xl md:text-3xl font-bold text-cyan-400">1+</div>
                 <div className="text-gray-400 text-sm">Years Experience</div>
               </motion.div>
               
@@ -145,8 +145,8 @@ export const Experience: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
                 className="space-y-2"
               >
-                <div className="text-2xl md:text-3xl font-bold text-green-400">50+</div>
-                <div className="text-gray-400 text-sm">Projects Delivered</div>
+                <div className="text-2xl md:text-3xl font-bold text-green-400">10+</div>
+                <div className="text-gray-400 text-sm">Projects Done</div>
               </motion.div>
               
               <motion.div
@@ -154,7 +154,7 @@ export const Experience: React.FC = () => {
                 className="space-y-2"
               >
                 <div className="text-2xl md:text-3xl font-bold text-yellow-400">15+</div>
-                <div className="text-gray-400 text-sm">Technologies Mastered</div>
+                <div className="text-gray-400 text-sm">Technologies Worked</div>
               </motion.div>
             </div>
           </TerminalWindow>

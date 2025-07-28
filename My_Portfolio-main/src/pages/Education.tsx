@@ -151,7 +151,7 @@ export const Education: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
                 className="space-y-2"
               >
-                <div className="text-2xl md:text-3xl font-bold text-cyan-400">8.9</div>
+                <div className="text-2xl md:text-3xl font-bold text-cyan-400">9.4</div>
                 <div className="text-gray-400 text-sm">Current CGPA</div>
               </motion.div>
               
@@ -168,7 +168,7 @@ export const Education: React.FC = () => {
                 className="space-y-2"
               >
                 <div className="text-2xl md:text-3xl font-bold text-yellow-400">5+</div>
-                <div className="text-gray-400 text-sm">Academic Awards</div>
+                <div className="text-gray-400 text-sm">Certifications</div>
               </motion.div>
             </div>
 
