@@ -48,18 +48,18 @@ export const experiences = [
 export const projects: Project[] = [
   {
     id: 'project-1',
-    title: 'Neural Network Visualizer',
-    description: 'Interactive 3D visualization of neural network architectures with real-time training data.',
-    technologies: ['React', 'Three.js', 'WebGL', 'TensorFlow.js'],
-    githubUrl: 'https://github.com/username/neural-viz',
-    liveUrl: 'https://neural-viz.demo.com',
+    title: 'Airline Operations ML System',
+    description: 'Developed a Flight and Baggage Delay Prediction System Using Multiple ML Models tailored to the Airline industry KPIs.',
+    technologies: ['Xgboost', 'JavaScript', 'Streamlit', 'Flask','EDA','AWS Sagemaker'],
+    githubUrl: 'https://github.com/SriAakash-Github/FlightOps_MLsolution.git',
+    // liveUrl: 'https://neural-viz.demo.com',
     imageUrl: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'project-2',
-    title: 'Terminal File Manager',
+    title: 'Crop Disease Detection',
     description: 'Cross-platform terminal-based file manager with vim-like keybindings and plugin support.',
-    technologies: ['Rust', 'TUI', 'tokio', 'crossterm'],
+    technologies: ['Flutter', 'Teachable Machine', 'Edge Impluse', 'CNN'],
     githubUrl: 'https://github.com/username/term-fm',
     imageUrl: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
