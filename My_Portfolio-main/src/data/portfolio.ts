@@ -58,26 +58,26 @@ export const projects: Project[] = [
   {
     id: 'project-2',
     title: 'Crop Disease Detection',
-    description: 'Cross-platform terminal-based file manager with vim-like keybindings and plugin support.',
-    technologies: ['Flutter', 'Teachable Machine', 'Edge Impluse', 'CNN'],
-    githubUrl: 'https://github.com/username/term-fm',
+    description: 'A crop disease prediction system built with Teachable Machine, integrated into a Flutter mobile app. It identifies diseases from leaf images for quick, on-the-go diagnosis.',
+    technologies: ['Flutter', 'Teachable Machine', 'Edge Impluse', 'CNN','firebase'],
+    githubUrl: 'https://github.com/SriAakash-Github/Crop-Disease-Detection-App-main',
     imageUrl: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'project-3',
-    title: 'Distributed Cache System',
+    title: 'Cyber Security Threat Detection',
     description: 'High-performance distributed caching system with consistent hashing and fault tolerance.',
-    technologies: ['Go', 'Redis', 'Docker', 'Kubernetes'],
-    githubUrl: 'https://github.com/username/dist-cache',
+    technologies: ['docker', 'react', 'Hugging Face Transformers', 'flask'],
+    githubUrl: 'https://github.com/SriAakash-Github/Cyber-Security-Threat-Detection',
     imageUrl: 'https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 'project-4',
-    title: 'Blockchain Explorer',
-    description: 'Real-time blockchain explorer with advanced analytics and transaction visualization.',
-    technologies: ['Vue.js', 'Node.js', 'GraphQL', 'MongoDB'],
-    githubUrl: 'https://github.com/username/blockchain-explorer',
-    liveUrl: 'https://block-explorer.demo.com',
+    title: 'FlexIT-Smart Fitness Band',
+    description: 'A customizable fitness tracker capable of recognizing a wide range of exercises, built using the Arduino Nano 33 BLE Sense and powered by Edge Impulse for machine learning at the edge..',
+    technologies: ['Edge Impulse', 'Arduino Nano 33 BLE Sense', 'TensorFlow', 'Firebase'],
+    githubUrl: 'https://github.com/SriAakash-Github/Flexit-ML-Model',
+    // liveUrl: 'https://block-explorer.demo.com',
     imageUrl: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800'
   }
 ];
