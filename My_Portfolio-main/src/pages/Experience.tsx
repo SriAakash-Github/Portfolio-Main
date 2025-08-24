@@ -88,26 +88,28 @@ export const Experience: React.FC = () => {
                       </div>
 
                       {/* Achievements */}
-                      <div className="space-y-3">
-                        <div className="flex items-center space-x-2 text-yellow-400">
-                          <Award size={16} />
-                          <span className="text-sm font-mono">Key Achievements:</span>
+                      {exp.achievements && exp.achievements.length > 0 && (
+                        <div className="space-y-3">
+                          <div className="flex items-center space-x-2 text-yellow-400">
+                            <Award size={16} />
+                            <span className="text-sm font-mono">Key Achievements:</span>
+                          </div>
+                          <ul className="space-y-2">
+                            {exp.achievements.map((achievement, i) => (
+                              <motion.li
+                                key={i}
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ delay: index * 0.2 + i * 0.1 + 0.5 }}
+                                className="flex items-start space-x-2 text-gray-300 text-sm"
+                              >
+                                <span className="text-green-400 mt-1">▸</span>
+                                <span>{achievement}</span>
+                              </motion.li>
+                            ))}
+                          </ul>
                         </div>
-                        <ul className="space-y-2">
-                          {exp.achievements.map((achievement, i) => (
-                            <motion.li
-                              key={i}
-                              initial={{ opacity: 0, x: -20 }}
-                              animate={{ opacity: 1, x: 0 }}
-                              transition={{ delay: index * 0.2 + i * 0.1 + 0.5 }}
-                              className="flex items-start space-x-2 text-gray-300 text-sm"
-                            >
-                              <span className="text-green-400 mt-1">▸</span>
-                              <span>{achievement}</span>
-                            </motion.li>
-                          ))}
-                        </ul>
-                      </div>
+                      )}
 
                       {/* Terminal footer */}
                       <div className="pt-3 border-t border-gray-800 text-xs text-gray-500 font-mono">

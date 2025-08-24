@@ -57,9 +57,9 @@ export const Home: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-green-400 pt-20 px-4 md:px-6">
+    <div className="min-h-screen bg-black text-green-400 pt-20 pb-20 px-4 md:px-6">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-start">
           
           {/* Terminal Section */}
           <motion.div
@@ -68,7 +68,7 @@ export const Home: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <TerminalWindow title="~/portfolio - zsh">
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {commands.slice(0, currentStep + 1).map((command, index) => (
                   <div key={index} className="space-y-2">
                     <CommandPrompt>
@@ -98,13 +98,13 @@ export const Home: React.FC = () => {
                   <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    className="pt-4 md:pt-6 space-y-4"
+                    className="pt-3 md:pt-4 space-y-3"
                   >
                     <CommandPrompt>
                       <span className="text-yellow-400">Available commands:</span>
                     </CommandPrompt>
                     
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4 ml-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 md:gap-3 ml-4">
                       {[
                         { cmd: './projects', desc: 'View projects', path: '/projects' },
                         { cmd: './skills', desc: 'Check skills', path: '/skills' },

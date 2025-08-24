@@ -3,9 +3,24 @@ import { Project, Skill, Article, SocialLink } from '../types';
 export const experiences = [
   {
     id: 'exp-1',
+    title: 'AI/Full-Stack Developer',
+    company: 'Vibes Technology',
+    period: '07/2025 - Present',
+    location: 'Qatar',
+    description: 'Leading the development of an omnichannel AI-powered customer engagement platform ("Wiral") and building scalable microservices with multi-channel communication integration.',
+    technologies: ['Docker', 'React.js', 'PostgreSQL', 'DevOps', 'API Integrations', 'Web Hosting-aaPanel'],
+    achievements: [
+      'Building scalable microservices on Docker, reducing server response times by 40% and cutting deployment time.',
+      'Rebranded Logo and UI/UX by creating a modern design system aligned with enterprise-grade usability. Improved navigation flow, color schemes',
+      'Integrating multi-channel communication systems including live chat, email, WhatsApp, and social APIs',
+      'Implementing AI-powered features to enhance customer engagement and support automation'
+    ]
+  },
+  {
+    id: 'exp-2',
     title: 'AI/ML Full Stack Intern',
     company: 'Mphasis',
-    period: '05/2025 - Present',
+    period: '05/2025 - 08/2025',
     location: 'DLF SEZ IT Park, Chennai',
     description: 'Worked in the airline operations domain, developing a Flight-Baggage Analytics System that used multiple ML models to address various KPIs, collaborated with business analysts, and built a full-stack ML application.',
     technologies: ['Xgboost', 'React.js', 'AWS', 'Git', 'Streamlit','Flask','EDA','RAG'],
@@ -17,17 +32,12 @@ export const experiences = [
   },
   {
     id: 'exp-2',
-    title: 'Frontend Developer',
-    company: 'StartupXYZ',
-    period: '2020 - 2022',
-    location: 'San Francisco, CA',
-    description: 'Developed responsive web applications and mobile-first designs. Collaborated with UX/UI teams to create intuitive user experiences.',
-    technologies: ['Vue.js', 'JavaScript', 'SCSS', 'Firebase'],
-    achievements: [
-      'Built 15+ responsive web applications',
-      'Improved user engagement by 40%',
-      'Established component library used across 10+ projects'
-    ]
+    title: 'web development Intern',
+    company: 'Interpe (1month Bootcamp)',
+    period: '8/2024 - 09/2024',
+    location: 'Remote',
+    description: 'Developed responsive web applications ,learned the basics of web development, built clone applications of netlix, uber. Implemented Interactive UI/UX features',
+    technologies: ['HTML/CSS', 'JavaScript', 'React.js'],
   },
   {
     id: 'exp-3',
@@ -68,7 +78,7 @@ export const projects: Project[] = [
     title: 'Cyber Security Threat Detection',
     description: 'High-performance distributed caching system with consistent hashing and fault tolerance.',
     technologies: ['docker', 'react', 'Hugging Face Transformers', 'flask'],
-    githubUrl: 'https://github.com/SriAakash-Github/Cyber-Security-Threat-Detection',
+    githubUrl: 'https://github.com/SriAakash-Github/Cyber-Security-Threat-Detection-New.git',
     imageUrl: 'https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
@@ -95,10 +105,10 @@ export const skills: Skill[] = [
   { name: 'Git', level: 88, category: 'tools' },
   { name: 'Scikit-learn', level: 80, category: 'aiml' },
   { name: 'PyTorch', level: 70, category: 'aiml' },
-  { name: 'ML Algorithms', level: 75, category: 'aiml' },
+  { name: 'XGBoost', level: 75, category: 'aiml' },
   { name: 'Hugging Face', level: 78, category: 'aimltech' },
   { name: 'Streamlit', level: 82, category: 'aimltech' },
-  { name: 'Cursor IDE', level: 90, category: 'aimltech' }
+  { name: 'NLTK', level: 90, category: 'aimltech' }
 ];
 
 export const articles: Article[] = [
